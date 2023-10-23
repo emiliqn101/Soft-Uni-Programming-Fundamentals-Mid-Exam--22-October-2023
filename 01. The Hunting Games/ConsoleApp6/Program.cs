@@ -19,8 +19,6 @@ namespace ConsoleApp6
             double water = numParticipants * dailyWaterPerPerson;
             double food = numParticipants * dailyFoodPerPerson;
 
-
-
             for (int day = 1; day <= adventureDay1; day++)
             {
                 double energyLoss = double.Parse(Console.ReadLine());
